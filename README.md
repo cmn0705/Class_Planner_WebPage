@@ -7,6 +7,7 @@
 - Show a table that includes all the class time frames of a week, so the users can put in their class names into the appropriate fields, making it a schedule
 - When user click “save” button, the schedule will be saved in the server, a message will be displayed to tell user that the schedule has been saved
 - When user click “download” button, the schedule, in the form “Schedule.csv” file will be downloaded. 
+
 **Developing techniques: HTML/Javascript/Java servlet tomcat**
 
 1. A main html page called “Class Planner.html” which contain the table of the schedule
@@ -22,24 +23,24 @@
 
 **Demonstration**
 1. Copy the folder ClassPlanner to tomcat/webapps:
-![image](https://github.com/cmn0705/Class_Planner_WebPage/blob/master/img/image001.png)
+![image](https://cmn0705.github.io/Class_Planner_WebPage/img/image001.png)
 2. Run tomcat server:
-![image]()
+![image](https://cmn0705.github.io/Class_Planner_WebPage/img/image003.png)
 3. Open ClassPlanner.html in browser:
-![image]()
+![image](https://cmn0705.github.io/Class_Planner_WebPage/img/image005.png)
 4. Try to login without entering the username:
-![image]()
+![image](https://cmn0705.github.io/Class_Planner_WebPage/img/image007.png)
 5. Try to login without entering password:
-![image]()
+![image](https://cmn0705.github.io/Class_Planner_WebPage/img/image009.png)
 6. Login information validated successfully:
-![image]()
+![image](https://cmn0705.github.io/Class_Planner_WebPage/img/image011.png)
 7. Login information is saved in “Login.txt” in ClassPlanner/WEB-INF folder: 
-![image]()
+![image](https://cmn0705.github.io/Class_Planner_WebPage/img/image013.png)
 8. Enter classes into the Schedule fields:
-![image]()
+![image](https://cmn0705.github.io/Class_Planner_WebPage/img/image015.png)
 9. Click “save” button:
-![image]()
+![image](https://cmn0705.github.io/Class_Planner_WebPage/img/image017.png)
 10. Schedule is saved in “Schedule.csv” in ClassPlanner/WEB-INF folder:
-![image]()
+![image](https://cmn0705.github.io/Class_Planner_WebPage/img/image019.png)
 11. Click on “download” button and the file “Schedule.csv” will be downloaded:
-![image]()
+![image](https://cmn0705.github.io/Class_Planner_WebPage/img/image021.png)
