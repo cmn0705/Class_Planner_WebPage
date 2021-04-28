@@ -9,21 +9,20 @@
 - When user click “download” button, the schedule, in the form “Schedule.csv” file will be downloaded. 
 **Developing techniques: HTML/Javascript/Java servlet tomcat**
 
-   1. A main html page called “Class Planner.html” which contain the table of the schedule
-   2. A “Login.html” page are embedded in the “Class Planner.html” so the user can login with username and password. Login information is validated using JavaScript codes in the Login.html page itself. The ‘login’ button also trigger the “login.class “ to run in the server and save username and password information to a file called “Login.txt”
-   3. When user done entering their classes to the schedule and click “save”, the “save.class” will be triggered in server to save this schedule to the server in the form of a file called “Schedule.csv”
-   4. When user click “download” button, it triggers the link to download the “Schedule.csv” file in server.
-**Set up**
+1. A main html page called “Class Planner.html” which contain the table of the schedule
+2. A “Login.html” page are embedded in the “Class Planner.html” so the user can login with username and password. Login information is validated using JavaScript codes in the Login.html page itself. The ‘login’ button also trigger the “login.class “ to run in the server and save username and password information to a file called “Login.txt”
+3. When user done entering their classes to the schedule and click “save”, the “save.class” will be triggered in server to save this schedule to the server in the form of a file called “Schedule.csv”
+4. When user click “download” button, it triggers the link to download the “Schedule.csv” file in server.
 
-   1. Copy the given “ClassPlanner” folder into tomcat/webapps folder
-   2. In Terminal, go to tomcat/bin folder, type ‘./startup.sh’ to start the server:
-   3.	In browser, go to http://localhost:9091/ to make sure the server is running
-   4. Go to tomcat/webapps/ClassPlanner/WEB-INF to open the “ClassPlanner.html” in a browner to start
+**Set up**
+1. Copy the given “ClassPlanner” folder into tomcat/webapps folder
+2. In Terminal, go to tomcat/bin folder, type ‘./startup.sh’ to start the server:
+3.	In browser, go to http://localhost:9091/ to make sure the server is running
+4. Go to tomcat/webapps/ClassPlanner/WEB-INF to open the “ClassPlanner.html” in a browner to start
 
 **Demonstration**
-
 1. Copy the folder ClassPlanner to tomcat/webapps:
-![image]()
+![image](https://github.com/cmn0705/Class_Planner_WebPage/blob/master/img/image001.png)
 2. Run tomcat server:
 ![image]()
 3. Open ClassPlanner.html in browser:
