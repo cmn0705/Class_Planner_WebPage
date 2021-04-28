@@ -1,6 +1,6 @@
 ﻿*Tags: Html,Servlet,Tomcat*
 
-**Class Planner**
+[**Class Planner**](https://cmn0705.github.io/Class_Planner_WebPage/tomcat/webapps/ClassPlanner/WEB-INF/ClassPlanner.html)
 
 **App does the following tasks:**
 - Let user login with their username and password and save this information on server. When user click on “login” button, a validation check done by javascript to make sure that the username or password entered are not empty. 
