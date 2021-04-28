@@ -1,0 +1,492 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2021 22:36:56.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.45
+21-Apr-2021 22:36:56.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 30 2021 10:29:04 UTC
+21-Apr-2021 22:36:56.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.45.0
+21-Apr-2021 22:36:56.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+21-Apr-2021 22:36:56.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+21-Apr-2021 22:36:56.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+21-Apr-2021 22:36:56.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-15.jdk/Contents/Home
+21-Apr-2021 22:36:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.2+7
+21-Apr-2021 22:36:56.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+21-Apr-2021 22:36:56.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Applications/tomcat9
+21-Apr-2021 22:36:56.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Applications/tomcat9
+21-Apr-2021 22:36:56.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Apr-2021 22:36:56.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Apr-2021 22:36:56.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Apr-2021 22:36:56.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Apr-2021 22:36:56.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2021 22:36:56.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Applications/tomcat9/conf/logging.properties
+21-Apr-2021 22:36:56.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Apr-2021 22:36:56.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Apr-2021 22:36:56.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Apr-2021 22:36:56.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Apr-2021 22:36:56.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Apr-2021 22:36:56.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Applications/tomcat9
+21-Apr-2021 22:36:56.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Applications/tomcat9
+21-Apr-2021 22:36:56.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Applications/tomcat9/temp
+21-Apr-2021 22:36:56.449 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/chau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+21-Apr-2021 22:36:56.872 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Apr-2021 22:36:56.925 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [764] milliseconds
+21-Apr-2021 22:36:56.974 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Apr-2021 22:36:56.975 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.45]
+21-Apr-2021 22:36:56.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/tomcat9/webapps/docs]
+21-Apr-2021 22:36:57.274 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/tomcat9/webapps/docs] has finished in [290] ms
+21-Apr-2021 22:36:57.274 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/tomcat9/webapps/manager]
+21-Apr-2021 22:36:57.337 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/tomcat9/webapps/manager] has finished in [63] ms
+21-Apr-2021 22:36:57.337 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/tomcat9/webapps/examples]
+21-Apr-2021 22:36:57.674 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/tomcat9/webapps/examples] has finished in [337] ms
+21-Apr-2021 22:36:57.675 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/tomcat9/webapps/ROOT]
+21-Apr-2021 22:36:57.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/tomcat9/webapps/ROOT] has finished in [22] ms
+21-Apr-2021 22:36:57.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/tomcat9/webapps/host-manager]
+21-Apr-2021 22:36:57.723 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/tomcat9/webapps/host-manager] has finished in [25] ms
+21-Apr-2021 22:36:57.727 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Apr-2021 22:36:57.736 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [810] milliseconds
+21-Apr-2021 22:38:27.778 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/tomcat9/webapps/Quiz2]
+21-Apr-2021 22:38:27.825 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/tomcat9/webapps/Quiz2] has finished in [47] ms
+21-Apr-2021 22:38:43.956 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Apr-2021 22:38:43.956 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Apr-2021 22:38:43.961 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Apr-2021 22:38:43.995 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Apr-2021 22:38:44.018 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2021 22:39:19.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.45
+21-Apr-2021 22:39:19.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 30 2021 10:29:04 UTC
+21-Apr-2021 22:39:19.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.45.0
+21-Apr-2021 22:39:19.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+21-Apr-2021 22:39:19.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+21-Apr-2021 22:39:19.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+21-Apr-2021 22:39:19.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-15.jdk/Contents/Home
+21-Apr-2021 22:39:19.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.2+7
+21-Apr-2021 22:39:19.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+21-Apr-2021 22:39:19.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Applications/tomcat9
+21-Apr-2021 22:39:19.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Applications/tomcat9
+21-Apr-2021 22:39:19.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Apr-2021 22:39:19.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Apr-2021 22:39:19.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Apr-2021 22:39:19.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Apr-2021 22:39:19.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2021 22:39:19.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Applications/tomcat9/conf/logging.properties
+21-Apr-2021 22:39:19.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Apr-2021 22:39:19.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Apr-2021 22:39:19.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Apr-2021 22:39:19.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Apr-2021 22:39:19.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Apr-2021 22:39:19.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Applications/tomcat9
+21-Apr-2021 22:39:19.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Applications/tomcat9
+21-Apr-2021 22:39:19.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Applications/tomcat9/temp
+21-Apr-2021 22:39:19.955 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/chau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+21-Apr-2021 22:39:20.318 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9091"]
+21-Apr-2021 22:39:20.374 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [699] milliseconds
+21-Apr-2021 22:39:20.427 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Apr-2021 22:39:20.428 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.45]
+21-Apr-2021 22:39:20.438 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/tomcat9/webapps/docs]
+21-Apr-2021 22:39:20.788 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/tomcat9/webapps/docs] has finished in [349] ms
+21-Apr-2021 22:39:20.788 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/tomcat9/webapps/manager]
+21-Apr-2021 22:39:20.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/tomcat9/webapps/manager] has finished in [59] ms
+21-Apr-2021 22:39:20.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/tomcat9/webapps/Quiz2]
+21-Apr-2021 22:39:20.902 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/tomcat9/webapps/Quiz2] has finished in [54] ms
+21-Apr-2021 22:39:20.902 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/tomcat9/webapps/examples]
+21-Apr-2021 22:39:21.302 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/tomcat9/webapps/examples] has finished in [400] ms
+21-Apr-2021 22:39:21.303 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/tomcat9/webapps/ROOT]
+21-Apr-2021 22:39:21.325 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/tomcat9/webapps/ROOT] has finished in [23] ms
+21-Apr-2021 22:39:21.325 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Applications/tomcat9/webapps/host-manager]
+21-Apr-2021 22:39:21.355 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Applications/tomcat9/webapps/host-manager] has finished in [30] ms
+21-Apr-2021 22:39:21.359 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9091"]
+21-Apr-2021 22:39:21.371 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [996] milliseconds
+21-Apr-2021 22:41:17.161 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Apr-2021 22:41:17.162 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9091"]
+21-Apr-2021 22:41:17.167 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Apr-2021 22:41:17.214 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9091"]
+21-Apr-2021 22:41:17.224 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9091"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2021 22:44:20.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.45
+21-Apr-2021 22:44:20.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 30 2021 10:29:04 UTC
+21-Apr-2021 22:44:20.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.45.0
+21-Apr-2021 22:44:20.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+21-Apr-2021 22:44:20.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+21-Apr-2021 22:44:20.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+21-Apr-2021 22:44:20.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-15.jdk/Contents/Home
+21-Apr-2021 22:44:20.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.2+7
+21-Apr-2021 22:44:20.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+21-Apr-2021 22:44:20.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/chau/FXUA/CMP663/8.Quiz2 Registration Form/tomcat
+21-Apr-2021 22:44:20.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/chau/FXUA/CMP663/8.Quiz2 Registration Form/tomcat
+21-Apr-2021 22:44:20.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Apr-2021 22:44:20.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Apr-2021 22:44:20.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Apr-2021 22:44:20.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Apr-2021 22:44:20.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2021 22:44:20.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/chau/FXUA/CMP663/8.Quiz2 Registration Form/tomcat/conf/logging.properties
+21-Apr-2021 22:44:20.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Apr-2021 22:44:20.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Apr-2021 22:44:20.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Apr-2021 22:44:20.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Apr-2021 22:44:20.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Apr-2021 22:44:20.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/chau/FXUA/CMP663/8.Quiz2 Registration Form/tomcat
+21-Apr-2021 22:44:20.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/chau/FXUA/CMP663/8.Quiz2 Registration Form/tomcat
+21-Apr-2021 22:44:20.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/chau/FXUA/CMP663/8.Quiz2 Registration Form/tomcat/temp
+21-Apr-2021 22:44:20.964 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/chau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+21-Apr-2021 22:44:21.427 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9091"]
+21-Apr-2021 22:44:21.495 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [833] milliseconds
+21-Apr-2021 22:44:21.552 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Apr-2021 22:44:21.553 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.45]
+21-Apr-2021 22:44:21.566 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/8.Quiz2 Registration Form/tomcat/webapps/docs]
+21-Apr-2021 22:44:21.934 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/8.Quiz2 Registration Form/tomcat/webapps/docs] has finished in [367] ms
+21-Apr-2021 22:44:21.936 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/8.Quiz2 Registration Form/tomcat/webapps/manager]
+21-Apr-2021 22:44:22.006 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/8.Quiz2 Registration Form/tomcat/webapps/manager] has finished in [71] ms
+21-Apr-2021 22:44:22.007 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/8.Quiz2 Registration Form/tomcat/webapps/Quiz2]
+21-Apr-2021 22:44:22.089 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/8.Quiz2 Registration Form/tomcat/webapps/Quiz2] has finished in [81] ms
+21-Apr-2021 22:44:22.089 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/8.Quiz2 Registration Form/tomcat/webapps/examples]
+21-Apr-2021 22:44:22.517 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/8.Quiz2 Registration Form/tomcat/webapps/examples] has finished in [428] ms
+21-Apr-2021 22:44:22.518 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/8.Quiz2 Registration Form/tomcat/webapps/ROOT]
+21-Apr-2021 22:44:22.549 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/8.Quiz2 Registration Form/tomcat/webapps/ROOT] has finished in [31] ms
+21-Apr-2021 22:44:22.550 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/8.Quiz2 Registration Form/tomcat/webapps/host-manager]
+21-Apr-2021 22:44:22.589 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/8.Quiz2 Registration Form/tomcat/webapps/host-manager] has finished in [39] ms
+21-Apr-2021 22:44:22.595 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9091"]
+21-Apr-2021 22:44:22.608 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1111] milliseconds
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2021 22:55:40.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.45
+21-Apr-2021 22:55:40.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 30 2021 10:29:04 UTC
+21-Apr-2021 22:55:40.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.45.0
+21-Apr-2021 22:55:40.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+21-Apr-2021 22:55:40.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+21-Apr-2021 22:55:40.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+21-Apr-2021 22:55:40.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-15.jdk/Contents/Home
+21-Apr-2021 22:55:40.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.2+7
+21-Apr-2021 22:55:40.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+21-Apr-2021 22:55:40.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/chau/FXUA/CMP663/10. hw3/tomcat
+21-Apr-2021 22:55:40.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/chau/FXUA/CMP663/10. hw3/tomcat
+21-Apr-2021 22:55:40.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Apr-2021 22:55:40.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Apr-2021 22:55:40.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Apr-2021 22:55:40.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Apr-2021 22:55:40.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2021 22:55:40.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/chau/FXUA/CMP663/10. hw3/tomcat/conf/logging.properties
+21-Apr-2021 22:55:40.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Apr-2021 22:55:40.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Apr-2021 22:55:40.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Apr-2021 22:55:40.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Apr-2021 22:55:40.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Apr-2021 22:55:40.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/chau/FXUA/CMP663/10. hw3/tomcat
+21-Apr-2021 22:55:40.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/chau/FXUA/CMP663/10. hw3/tomcat
+21-Apr-2021 22:55:40.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/chau/FXUA/CMP663/10. hw3/tomcat/temp
+21-Apr-2021 22:55:40.187 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/chau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+21-Apr-2021 22:55:40.843 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9091"]
+21-Apr-2021 22:55:40.953 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1269] milliseconds
+21-Apr-2021 22:55:41.046 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Apr-2021 22:55:41.046 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.45]
+21-Apr-2021 22:55:41.062 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/10. hw3/tomcat/webapps/EditedTeam5Pj]
+21-Apr-2021 22:55:41.848 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/10. hw3/tomcat/webapps/EditedTeam5Pj] has finished in [785] ms
+21-Apr-2021 22:55:41.848 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/10. hw3/tomcat/webapps/docs]
+21-Apr-2021 22:55:41.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/10. hw3/tomcat/webapps/docs] has finished in [58] ms
+21-Apr-2021 22:55:41.908 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/10. hw3/tomcat/webapps/manager]
+21-Apr-2021 22:55:42.052 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/10. hw3/tomcat/webapps/manager] has finished in [145] ms
+21-Apr-2021 22:55:42.056 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/10. hw3/tomcat/webapps/examples]
+21-Apr-2021 22:55:42.650 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/10. hw3/tomcat/webapps/examples] has finished in [593] ms
+21-Apr-2021 22:55:42.651 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/10. hw3/tomcat/webapps/ROOT]
+21-Apr-2021 22:55:42.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/10. hw3/tomcat/webapps/ROOT] has finished in [41] ms
+21-Apr-2021 22:55:42.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/10. hw3/tomcat/webapps/host-manager]
+21-Apr-2021 22:55:43.035 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/10. hw3/tomcat/webapps/host-manager] has finished in [342] ms
+21-Apr-2021 22:55:43.044 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9091"]
+21-Apr-2021 22:55:43.063 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2109] milliseconds
+21-Apr-2021 23:03:51.976 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Apr-2021 23:03:51.978 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9091"]
+21-Apr-2021 23:03:51.982 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Apr-2021 23:03:52.032 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9091"]
+21-Apr-2021 23:03:52.037 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9091"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2021 23:16:30.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.45
+21-Apr-2021 23:16:30.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 30 2021 10:29:04 UTC
+21-Apr-2021 23:16:30.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.45.0
+21-Apr-2021 23:16:30.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+21-Apr-2021 23:16:30.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+21-Apr-2021 23:16:30.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+21-Apr-2021 23:16:30.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-15.jdk/Contents/Home
+21-Apr-2021 23:16:30.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.2+7
+21-Apr-2021 23:16:30.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+21-Apr-2021 23:16:30.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/chau/FXUA/CMP663/14.Project/tomcat
+21-Apr-2021 23:16:30.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/chau/FXUA/CMP663/14.Project/tomcat
+21-Apr-2021 23:16:30.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Apr-2021 23:16:30.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Apr-2021 23:16:30.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Apr-2021 23:16:30.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Apr-2021 23:16:30.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2021 23:16:30.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/chau/FXUA/CMP663/14.Project/tomcat/conf/logging.properties
+21-Apr-2021 23:16:30.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Apr-2021 23:16:30.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Apr-2021 23:16:30.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Apr-2021 23:16:30.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Apr-2021 23:16:30.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Apr-2021 23:16:30.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/chau/FXUA/CMP663/14.Project/tomcat
+21-Apr-2021 23:16:30.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/chau/FXUA/CMP663/14.Project/tomcat
+21-Apr-2021 23:16:30.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/chau/FXUA/CMP663/14.Project/tomcat/temp
+21-Apr-2021 23:16:30.421 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/chau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+21-Apr-2021 23:16:30.926 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9091"]
+21-Apr-2021 23:16:31.027 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1237] milliseconds
+21-Apr-2021 23:16:31.094 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Apr-2021 23:16:31.094 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.45]
+21-Apr-2021 23:16:31.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/14.Project/tomcat/webapps/FinalProject]
+21-Apr-2021 23:16:31.677 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/14.Project/tomcat/webapps/FinalProject] has finished in [566] ms
+21-Apr-2021 23:16:31.677 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/14.Project/tomcat/webapps/docs]
+21-Apr-2021 23:16:31.711 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/14.Project/tomcat/webapps/docs] has finished in [33] ms
+21-Apr-2021 23:16:31.711 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/14.Project/tomcat/webapps/manager]
+21-Apr-2021 23:16:31.779 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/14.Project/tomcat/webapps/manager] has finished in [68] ms
+21-Apr-2021 23:16:31.780 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/14.Project/tomcat/webapps/examples]
+21-Apr-2021 23:16:32.248 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/14.Project/tomcat/webapps/examples] has finished in [467] ms
+21-Apr-2021 23:16:32.248 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/14.Project/tomcat/webapps/ROOT]
+21-Apr-2021 23:16:32.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/14.Project/tomcat/webapps/ROOT] has finished in [27] ms
+21-Apr-2021 23:16:32.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/14.Project/tomcat/webapps/host-manager]
+21-Apr-2021 23:16:32.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/14.Project/tomcat/webapps/host-manager] has finished in [30] ms
+21-Apr-2021 23:16:32.310 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9091"]
+21-Apr-2021 23:16:32.324 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1296] milliseconds
+21-Apr-2021 23:18:57.218 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Apr-2021 23:18:57.219 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9091"]
+21-Apr-2021 23:18:57.223 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Apr-2021 23:18:57.263 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9091"]
+21-Apr-2021 23:18:57.280 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9091"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2021 23:23:50.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.45
+21-Apr-2021 23:23:50.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 30 2021 10:29:04 UTC
+21-Apr-2021 23:23:50.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.45.0
+21-Apr-2021 23:23:50.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+21-Apr-2021 23:23:50.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+21-Apr-2021 23:23:50.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+21-Apr-2021 23:23:50.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-15.jdk/Contents/Home
+21-Apr-2021 23:23:50.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.2+7
+21-Apr-2021 23:23:50.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+21-Apr-2021 23:23:50.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/chau/FXUA/CMP663/15.Final Scheduler/tomcat
+21-Apr-2021 23:23:50.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/chau/FXUA/CMP663/15.Final Scheduler/tomcat
+21-Apr-2021 23:23:50.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Apr-2021 23:23:50.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Apr-2021 23:23:50.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Apr-2021 23:23:50.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Apr-2021 23:23:50.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Apr-2021 23:23:50.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/chau/FXUA/CMP663/15.Final Scheduler/tomcat/conf/logging.properties
+21-Apr-2021 23:23:50.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Apr-2021 23:23:50.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Apr-2021 23:23:50.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Apr-2021 23:23:50.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Apr-2021 23:23:50.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Apr-2021 23:23:50.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/chau/FXUA/CMP663/15.Final Scheduler/tomcat
+21-Apr-2021 23:23:50.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/chau/FXUA/CMP663/15.Final Scheduler/tomcat
+21-Apr-2021 23:23:50.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/chau/FXUA/CMP663/15.Final Scheduler/tomcat/temp
+21-Apr-2021 23:23:50.446 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/chau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+21-Apr-2021 23:23:50.869 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9091"]
+21-Apr-2021 23:23:50.922 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [901] milliseconds
+21-Apr-2021 23:23:50.977 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Apr-2021 23:23:50.978 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.45]
+21-Apr-2021 23:23:50.992 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/15.Final Scheduler/tomcat/webapps/docs]
+21-Apr-2021 23:23:51.465 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/15.Final Scheduler/tomcat/webapps/docs] has finished in [474] ms
+21-Apr-2021 23:23:51.466 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/15.Final Scheduler/tomcat/webapps/manager]
+21-Apr-2021 23:23:51.524 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/15.Final Scheduler/tomcat/webapps/manager] has finished in [57] ms
+21-Apr-2021 23:23:51.524 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/15.Final Scheduler/tomcat/webapps/examples]
+21-Apr-2021 23:23:51.885 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/15.Final Scheduler/tomcat/webapps/examples] has finished in [361] ms
+21-Apr-2021 23:23:51.886 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/15.Final Scheduler/tomcat/webapps/ROOT]
+21-Apr-2021 23:23:51.908 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/15.Final Scheduler/tomcat/webapps/ROOT] has finished in [22] ms
+21-Apr-2021 23:23:51.908 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/15.Final Scheduler/tomcat/webapps/host-manager]
+21-Apr-2021 23:23:51.936 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/15.Final Scheduler/tomcat/webapps/host-manager] has finished in [28] ms
+21-Apr-2021 23:23:51.937 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/chau/FXUA/CMP663/15.Final Scheduler/tomcat/webapps/ClassPlanner]
+21-Apr-2021 23:23:51.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/chau/FXUA/CMP663/15.Final Scheduler/tomcat/webapps/ClassPlanner] has finished in [47] ms
+21-Apr-2021 23:23:51.988 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9091"]
+21-Apr-2021 23:23:52.003 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1079] milliseconds
+21-Apr-2021 23:37:32.534 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/Users/chau/FXUA/CMP663/15.Final%20Scheduler/tomcat/conf/tomcat-users.xml]
+21-Apr-2021 23:37:32.536 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+21-Apr-2021 23:37:33.043 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+21-Apr-2021 23:37:33.066 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [ROOT]
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1680)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1618)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1554)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5454)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:805)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1460)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1387)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1647)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+21-Apr-2021 23:37:33.589 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ClassPlanner]
+21-Apr-2021 23:37:33.594 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [ClassPlanner]
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1680)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1618)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1554)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5454)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:805)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1460)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1387)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1647)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+21-Apr-2021 23:37:34.102 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/examples]
+21-Apr-2021 23:37:34.111 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [examples]
+	java.lang.IllegalStateException: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:101)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:263)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1136)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1678)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1618)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1554)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5454)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:805)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1460)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1387)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1647)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+	Caused by: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:226)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:314)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+		... 30 more
+	Caused by: java.lang.reflect.InvocationTargetException
+		at java.base/jdk.internal.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:206)
+		... 33 more
+	Caused by: java.nio.file.NoSuchFileException: /Users/chau/FXUA/CMP663/15.Final Scheduler/tomcat/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar
+		at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+		at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+		at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1843)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1198)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:701)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:240)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:171)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:347)
+		... 38 more
+21-Apr-2021 23:37:34.621 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/host-manager]
+21-Apr-2021 23:37:34.625 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [host-manager]
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1680)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1618)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1554)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5454)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:805)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1460)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1387)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1647)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+21-Apr-2021 23:37:35.138 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+21-Apr-2021 23:37:35.143 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [manager]
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1680)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1618)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1554)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5454)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:805)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1460)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1387)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1647)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+21-Apr-2021 23:37:35.651 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/docs]
+21-Apr-2021 23:37:35.655 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [docs]
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1680)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1618)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1554)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:461)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5454)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:805)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1460)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1387)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1647)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+21-Apr-2021 23:42:14.819 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Apr-2021 23:42:14.820 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9091"]
+21-Apr-2021 23:42:14.827 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Apr-2021 23:42:14.828 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9091"]
+21-Apr-2021 23:42:14.887 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9091"]

@@ -1,0 +1,24 @@
+<form name='loginForm' onsubmit='return(validate())'; ACTION="http://localhost:9091/ClassPlanner/Login" method="post">
+    <table>
+        <tr><td>Username</td><td><input type='text' name='Username'></td></tr>
+        <tr><td>Password</td><td><input type='password' name='Password'></td></tr>    
+    </table>
+    <input type=submit value='Login'>
+</form>
+
+<script>
+    function validate(){
+        if (document.loginForm.Username.value == "" ) {
+            alert( "Please provide your name!" ); 
+            document.loginForm.Username.focus(); 
+            return false;
+        }
+
+        if (document.loginForm.Password.value == "" ) {
+            alert( "Please provide your Password!" ); 
+            document.loginForm.Password.focus(); 
+            return false;
+        }
+        return( true );
+    }
+</script>
