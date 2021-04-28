@@ -39,6 +39,7 @@
 8. Enter classes into the Schedule fields:
 ![image](https://cmn0705.github.io/Class_Planner_WebPage/img/image015.png)
 9. Click “save” button:
+
 ![image](https://cmn0705.github.io/Class_Planner_WebPage/img/image017.png)
 10. Schedule is saved in “Schedule.csv” in ClassPlanner/WEB-INF folder:
 ![image](https://cmn0705.github.io/Class_Planner_WebPage/img/image019.png)
