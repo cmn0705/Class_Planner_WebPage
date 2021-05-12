@@ -1,12 +1,12 @@
-﻿*Tags: Html,Servlet,Tomcat*
+﻿*Tags: Web Development, Frontend, Backend*
 
 [**Class Planner**](https://cmn0705.github.io/Class_Planner_WebPage/tomcat/webapps/ClassPlanner/WEB-INF/ClassPlanner.html)
 
-**App does the following tasks:**
-- Let user login with their username and password and save this information on server. When user click on “login” button, a validation check done by javascript to make sure that the username or password entered are not empty. 
-- Show a table that includes all the class time frames of a week, so the users can put in their class names into the appropriate fields, making it a schedule
-- When user click “save” button, the schedule will be saved in the server, a message will be displayed to tell user that the schedule has been saved
-- When user click “download” button, the schedule, in the form “Schedule.csv” file will be downloaded. 
+**Description:**
+- Developed a class planner webpage that lets users login with their information, enter their classes and time into the table fields to make a schedule, save the schedule, and download the schedule in the form of CSV file.
+- Wrote JavaScript codes to validate the information entered. 
+- Designed server side of the webpage to save user login information and their schedule so that they can be retrieved later.
+- Tools used: *html, Servlet, Tomcat*
 
 **Developing techniques: HTML/Javascript/Java servlet tomcat**
 
