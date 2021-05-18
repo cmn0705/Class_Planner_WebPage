@@ -6,7 +6,7 @@
 - Developed a class planner webpage that lets users login with their information, enter their classes and time into the table fields to make a schedule, save the schedule, and download the schedule in the form of CSV file.
 - Wrote JavaScript codes to validate the information entered. 
 - Designed server side of the webpage to save user login information and their schedule so that they can be retrieved later.
-- Tools used: *html, Servlet, Tomcat*
+- Tools used: *html, javaScript, Servlet, Tomcat*
 
 **Developing techniques: HTML/Javascript/Java servlet tomcat**
 
